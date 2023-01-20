@@ -1,17 +1,117 @@
-body{
-    background-color: #295872;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-figure img{
+body{
+    background-color: #E5E5E5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     box-sizing: border-box;
 
-    position: absolute;
     width: 213px;
     height: 213px;
     left: 612px;
     top: 201px;
-    
-    border: 2px solid #8dbeda;
+
+    margin-top: 150px;
+    margin-bottom: 17px;
+}
+
+figure > img {
+    margin-bottom:15px;
+    border: 2px solid #BB99DD;
     border-radius: 50%;
     padding: 7px;
+}
+
+figcaption{
+    font-family: 'Poppins', sans-serif;
+    font-style: none;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+
+    color: #BB99DD ;
+}
+
+.containerLinks{
+    margin-top: 17px;
+    margin-bottom: 68px;
+}
+
+.links{
+    text-decoration: none;
+    text-align: center;
+
+    color: #BB99DD;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 16px 0 16px 0;
+    padding: 12px 0 13px 0;
+    display: block;
+    box-sizing: border-box;
+
+    width: 326px;
+    height: 49px;
+    left: 556px;
+    top: 486px;
+
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+}
+
+.containerItens{
+    margin-bottom: 200px;
+}
+
+.icones{
+    margin: 0 14.5px 0 14.5px;
+}
+
+footer{
+    color: rgb(113, 113, 113);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+
+@media(max-width: 414px){
+    figure{
+        margin-top: 200px;
+    }
+    .links{
+        width: 250px;
+    }
+    .containerLinks{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .icones{
+        margin: 0 10px 0 10px;
+    }
 }
