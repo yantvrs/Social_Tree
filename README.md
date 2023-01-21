@@ -27,6 +27,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+Esse projeto é um desafio do curso Discover da Rocketseat.
+
 A página contém uma lista de links(menu) que direciona o usuário para o local escolhido.
 
 O projeto online é apenas um teste de layout para esse tipo de aplicação.
