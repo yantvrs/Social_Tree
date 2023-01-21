@@ -1,7 +1,7 @@
-<h1 align="center"> Habit Tracker</h1>
+<h1 align="center">Social Tree</h1>
 
 <p align="center">
-NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Página com uma lista de links que pode ser utilizada em perfis de redes sociais. <br/>
 </p>
 
 <p align="center">
@@ -27,17 +27,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Habits é um app para ajudar a rastrear os hábitos.
+A página contém uma lista de links(menu) que direciona o usuário para o local escolhido.
+
+O projeto online é apenas um teste de layout para esse tipo de aplicação.
 
 - [Visite o projeto online](https://yantvrs.github.io/Social_Tree/index.html)
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/H3uIJ82rUiHxRkymgHhpmN/DD-%2F-Social-links-(Copy)?node-id=0%3A1&t=oMbewYqTVwiCKYNc-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
 
 ---
 Desenvolvido por :wave: [Yan Tavares](https://github.com/yantvrs)
