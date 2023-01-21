@@ -11,16 +11,10 @@ NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de 
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="">
-</p>
+
 
 <br>
 
-<p align="center">
-  <img alt="projeto Habits" src="./Layout_desktop.png" width="100%">
-  <img alt="projeto Habits" src="./Layout_mobile.png" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
@@ -39,7 +33,7 @@ O Habits é um app para ajudar a rastrear os hábitos.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195327109778210238). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/H3uIJ82rUiHxRkymgHhpmN/DD-%2F-Social-links-(Copy)?node-id=0%3A1&t=oMbewYqTVwiCKYNc-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
