@@ -1,90 +1,96 @@
-* {
+*{
     margin: 0;
     padding: 0;
-  }
-  
-  body {
-    background-color: #e5e5e5;
-  }
-  
-  main {
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     width: 100vw;
     height: 100vh;
-  }
-  
-  .profile {
+}
+
+figure{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+
     width: 213px;
     height: 213px;
+    left: 612px;
+    top: 201px;
+
     margin-top: 150px;
     margin-bottom: 17px;
-  }
-  
-  
-.profile img {
-    margin-bottom: 15px;
-    border: 2px solid #bb99dd;
+}
+
+figure > img {
+    margin-bottom:15px;
+    border: 2px solid #BB99DD;
     border-radius: 50%;
     padding: 7px;
-  }
-  
-  figcaption {
+}
+
+figcaption{
     font-family: 'Poppins', sans-serif;
+    font-style: none;
     font-weight: 300;
     font-size: 16px;
-    text-align: center;
-    color: #bb99dd;
-  }
-  
-  .links {
-    margin-top: 17px;
-    margin-bottom: 68px;
-  }
-  
-  .links ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .links li {
-    margin: 16px 0;
-  }
-  
-  .links a {
     text-decoration: none;
     text-align: center;
-    color: #bb99dd;
+
+    color: #BB99DD ;
+}
+
+.containerLinks{
+    margin-top: 17px;
+    margin-bottom: 68px;
+}
+
+.links{
+    text-decoration: none;
+    text-align: center;
+
+    color: #BB99DD;
     font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+
+    margin: 16px 0 16px 0;
+    padding: 12px 0 13px 0;
     display: block;
     box-sizing: border-box;
+
     width: 326px;
     height: 49px;
-    border: 2px solid #bb99dd;
+    left: 556px;
+    top: 486px;
+
+    border: 2px solid #BB99DD;
     border-radius: 4px;
-    padding: 12px 0 13px 0;
-  }
-  
-  .social-icons {
+}
+
+.containerItens{
     margin-bottom: 200px;
-  }
-  
-  .social-icons a {
-    margin: 0 14.5px;
-  }
-  
-  footer {
-    color: #717171;
+}
+
+.icones{
+    margin: 0 14.5px 0 14.5px;
+}
+
+footer{
+    color: rgb(113, 113, 113);
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     background-color: aliceblue;
@@ -92,23 +98,20 @@
     width: 100vw;
     position: fixed;
     bottom: 0;
-  }
-  
-  @media(max-width: 414px) {
-    .profile {
-      margin-top: 200px;
+}
+
+@media(max-width: 414px){
+    figure{
+        margin-top: 200px;
     }
-  
-    .links a {
-      width: 250px;
+    .links{
+        width: 250px;
     }
-  
-    .links {
-      margin-top: 15px;
-      margin-bottom: 20px;
+    .containerLinks{
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
-  
-    .social-icons a {
-      margin: 0 10px;
+    .icones{
+        margin: 0 10px 0 10px;
     }
-  }
+}
